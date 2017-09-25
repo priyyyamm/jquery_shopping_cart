@@ -1,5 +1,5 @@
 $(function() {
-    $('.box').draggable({scroll:true, revert: "invalid"});
+    $('.box').draggable({scroll:false, revert: "invalid"});
     $('#drop').droppable({
     	accept: '.box',
     	drop: function() {
