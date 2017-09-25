@@ -1,0 +1,73 @@
+body{
+        background: linear-gradient(to bottom, #1d2b64, #f8cdda);
+}
+h1{
+    text-align: center;
+    color: #93f9b9;
+    text-shadow: 2px 2px 2px grey;
+}
+h1:hover{
+    color: #061938;
+}
+#shop{
+    display: block;
+    background: white;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 12px 12px;
+    border: solid 3px red;
+    height: 300px;
+}
+#shop p{
+    text-align: center;
+    color: #d35400;
+    font-size: 24px; 
+    text-shadow: 2px 2px 2px grey;
+}
+#shop:hover{
+	border: solid 3px yellow;
+}
+.box{
+    background: skyblue;
+    width: 20%;
+    height: 60px;
+    color: darkmagenta;
+    text-align: center;
+    line-height: 60px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#drop{
+	background: white;
+	width: 75%;
+	margin: 20px auto;
+	height: 300px;
+	border-radius: 12px 12px;
+	border: solid 3px blue;
+}
+#drop:hover{
+	border:solid 3px lightblue;
+}
+#drop p{
+	text-align: center;
+	color: #16a085;
+	font-size: 24px;
+	text-shadow: 2px 2px 2px grey;
+}
+#checkout{
+	margin: 0 570px;
+	width: 170px;
+	height: 50px;
+	background: linear-gradient(to bottom, #ed4264, #ffedbc);
+	box-shadow: 3px 3px 3px grey;
+	border-radius: 8px 8px;
+}
+footer p{
+	font-size: 30px;
+	color: #1d2b64;
+	text-align: center;
+}
+
+
+
+
